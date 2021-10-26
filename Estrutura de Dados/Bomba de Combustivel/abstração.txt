@@ -1,0 +1,21 @@
+Bomba Combustivél:
+    -> Alcool
+        -> preço (float) -> pode ser reajustado.
+    -> Gasolina
+        -> preço (float) -> pode ser reajustado.
+    -> Valor do Abestecimento (float) -> valor informado pelo cliente.
+    -> Visor:
+        -> Fixo:
+            -> Tipo do Combustivel
+            -> Valor do litro do Combustivel 
+        -> Atualizando valores (loop):
+            -> litros
+            -> Valor
+
+Bomba Combustivél:
+    -> selecionar_combustivel()
+    -> abastecer()
+    -> zerar_bomba()
+    -> visor()
+    -> reajuste_combustivel()
+    -> __str__()
